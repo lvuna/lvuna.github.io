@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Shao's Personal Page</title>
+  <title>Shao's Home Page</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -14,6 +14,8 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style.min.css" rel="stylesheet">
+  <!-- My own additional CSS sheet -->
+  <link href=="css/personal_extra.css" rel="stylesheet">
   <style type="text/css">
     /* Necessary for full page carousel*/
     html,
@@ -49,7 +51,7 @@
     <div class="container">
 
       <!-- Brand -->
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" style="color:white">
         <strong>Personal Blog</strong>
       </a>
 
@@ -116,15 +118,15 @@
                 <strong>Shao-kan Chu</strong>
               </h1>
 
-              <p>
-                <strong>3rd year Computer Science Specialist @ University of Toronto</strong>
-              </p>
+              <h4>
+                <strong>Computer Science Specialist @ University of Toronto St. George Campus</strong>
+              </h4>
 
               <p class="mb-4 d-none d-md-block">
                 <strong>This is my personal webpage, showcasing my personal introduction and projects I've done so far. Enjoy!</strong>
               </p>
 
-              <a href="#project" class="btn btn-outline-white btn-lg">About myself!
+              <a href="#pointer" class="btn btn-outline-white btn-lg">About myself!
                 <i class="fas fa-graduation-cap ml-2"></i>
               </a>
             </div>
@@ -139,7 +141,7 @@
 
       <!--Second slide-->
       <div class="carousel-item">
-        <div class="view" style="background-image: url('img/sample.jpg'); background-repeat: no-repeat; background-size: cover;">
+        <div class="view" style="background-image: url('img/startimage.png'); background-repeat: no-repeat; background-size: cover;">
 
           <!-- Mask & flexbox options-->
           <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
@@ -147,20 +149,21 @@
             <!-- Content -->
             <div class="text-center white-text mx-5 wow fadeIn">
               <h1 class="mb-4">
-                <strong>About myself</strong>
+                <strong>Android Development - Game Box</strong>
               </h1>
 
-              <p>
-                <strong>Best & free guide of responsive web design</strong>
-              </p>
+              <h4>
+                <strong>Features one of my project!</strong>
+              </h4>
 
               <p class="mb-4 d-none d-md-block">
-                <strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and written versions
-                  available. Create your own, stunning website.</strong>
+                <strong>This is my first attempt to develop an android app as a team,
+                 applying design pattern and learn to develop frontend ui && backend logic.
+                 It's a precious experience for me to learn proper team workflow.
+                </strong>
               </p>
 
-              <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">Start free tutorial
-                <i class="fas fa-graduation-cap ml-2"></i>
+              <a href="https://github.com/lvuna" class="btn btn-outline-white btn-lg">Take a look!
               </a>
             </div>
             <!-- Content -->
@@ -195,64 +198,16 @@
 
   <!--Main layout-->
   <main>
-    <div class="container">
+    <div id="pointer" class="container">
 
-      <!--Section: Main info-->
-      <section class="mt-5 wow fadeIn">
-
-        <!--Grid row-->
-        <div class="row">
-
-          <!--Grid column-->
-          <div class="col-md-6 mb-4">
-
-            <img src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-main.jpg" class="img-fluid z-depth-1-half" alt="">
-
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-6 mb-4">
-
-            <!-- Main heading -->
-            <h3 class="h3 mb-3" id="project">Material Design for Bootstrap</h3>
-            <p>This template is created with Material Design for Bootstrap (
-              <strong>MDB</strong> ) framework.</p>
-            <p>Read details below to learn more about MDB.</p>
-            <!-- Main heading -->
-
-            <hr>
-
-            <p>
-              <strong>400+</strong> material UI elements,
-              <strong>600+</strong> material icons,
-              <strong>74</strong> CSS animations, SASS files, templates, tutorials and many more.
-              <strong>Free for personal and commercial use.</strong>
-            </p>
-
-            <!-- CTA -->
-            <a target="_blank" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" class="btn btn-grey btn-md">Download
-              <i class="fas fa-download ml-1"></i>
-            </a>
-            <a target="_blank" href="https://mdbootstrap.com/docs/jquery/components/" class="btn btn-grey btn-md">Live demo
-              <i class="far fa-image ml-1"></i>
-            </a>
-
-          </div>
-          <!--Grid column-->
-
-        </div>
-        <!--Grid row-->
-
-      </section>
       <!--Section: Main info-->
 
       <hr class="my-5">
 
-      <!--Section: Main features & Quick Start-->
+      <!--Section: About myself-->
       <section>
 
-        <h3 class="h3 text-center mb-5">About MDB</h3>
+        <h3 id="project" class="h3 text-center mb-5">About myself</h3>
 
         <!--Grid row-->
         <div class="row wow fadeIn">
@@ -262,12 +217,16 @@
 
             <!--First row-->
             <div class="row">
-              <div class="col-1 mr-3">  <!-- This class is used to display the icon-->
-                <i class="fas fa-code fa-2x indigo-text"></i>
-              </div>
+              <div class="col-1 mr-3">
+                <i class="fas fa-graduation-cap fa-2x cyan-text"></i>
+                </div>
               <div class="col-10">
-                <h5 class="feature-title">Bootstrap 4</h5>
-                <p class="grey-text">Thanks to MDB you can take advantage of all feature of newest Bootstrap 4.</p>
+                <h5 class="feature-title">Education</h5>
+                <p class="grey-text">
+                  09/2017 - present
+                  <span style="color:black">Bachelor of Science</span>
+                </p>
+                <p style="color:black">University Of Toronto St. George Campus</p>
               </div>
             </div>
             <!--/First row-->
@@ -280,39 +239,48 @@
                 <i class="fas fa-book fa-2x blue-text"></i>
               </div>
               <div class="col-10">
-                <h5 class="feature-title">Detailed documentation</h5>
-                <p class="grey-text">We give you detailed user-friendly documentation at your disposal. It will help you to implement your ideas
-                  easily.
-                </p>
+                <h5 class="feature-title">Focus</h5>
+                <p class="grey-text">-Artifical Intelligence</p>
+                <p class="grey-text">-Web Development</p>
+                <p class="grey-text">-Computer Vision</p>
               </div>
             </div>
             <!--/Second row-->
 
             <div style="height:30px"></div>
 
-            <!--Third row-->
-            <div class="row">
-              <div class="col-1 mr-3">
-                <i class="fas fa-graduation-cap fa-2x cyan-text"></i>
-              </div>
-              <div class="col-10">
-                <h5 class="feature-title">Lots of tutorials</h5>
-                <p class="grey-text">We care about the development of our users. We have prepared numerous tutorials, which allow you to learn
-                  how to use MDB as well as other technologies.</p>
-              </div>
-            </div>
-            <!--/Third row-->
-
           </div>
           <!--/Grid column-->
 
-          <!--Grid column-->
+          <!--2nd Grid column-->
           <div class="col-lg-6 col-md-12">
-
-            <p class="h5 text-center mb-4">Watch our "5 min Quick Start" tutorial</p>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cXTThxoywNQ" allowfullscreen></iframe>
-            </div>
+              <div class="row">
+                <div class="col-1 mr-3">
+                  <i class="fas fa-laptop fa-2x cyan-text"></i>
+                </div>
+                <div class="col-10">
+                  <h5 class="feature-title">Skills</h5>
+                  <ul style="color:black">
+                      <li>Programming language
+                          <span style="color:grey">
+                              Java, C, Python, C#, HTML, JavaScript
+                          </span>
+                      </li>
+                      <li>Mobile Development
+                          <span style="color:grey">
+                              Work as a team developed Android App using Java, including backend
+                              logic development and also frontend ui design
+                          </span>
+                      </li>
+                      <li>Objected Oriented Programming
+                          <span style="color:grey">
+                              Clear Understanding of OPP, as well the design pattern that
+                              uses OOP.
+                          </span>
+                      </li>
+                  </ul>
+                </div>
+              </div>
           </div>
           <!--/Grid column-->
 
@@ -327,7 +295,7 @@
       <!--Section: Not enough-->
       <section>
 
-        <h2 class="my-5 h3 text-center">Not enough?</h2>
+        <h2 class="my-5 h3 text-center">Experiences</h2>
 
         <!--First row-->
         <div class="row features-small mb-5 mt-3 wow fadeIn">
@@ -640,8 +608,6 @@
 
     <!--Copyright-->
     <div class="footer-copyright py-3">
-      © 2019 Copyright:
-      <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
     </div>
     <!--/.Copyright-->
 
