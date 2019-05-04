@@ -5,3 +5,23 @@
     columns: 2;
     list-style-position: inside;
 }
+
+/* Scrollbar styles */
+div ::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+
+div ::-webkit-scrollbar-track {
+border: 1px solid #996633;
+border-radius: 10px;
+}
+
+div ::-webkit-scrollbar-thumb {
+background: #996633;
+border-radius: 10px;
+}
+
+div ::-webkit-scrollbar-thumb:hover {
+background: #d9b38c;
+}
