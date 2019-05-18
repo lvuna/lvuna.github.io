@@ -1,4 +1,4 @@
-# Personal website
+# Personal Homepage
 
 ## Currently under construction
 Building my website for showcasing the project using template from MDB.
