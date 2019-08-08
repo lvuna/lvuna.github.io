@@ -1,0 +1,22 @@
+{
+    "project_data": [
+        {
+            "title": "Game Box",
+            "content": "A former school project, an Android App developed as a team using android studio.",
+            "img_src": "pub/img/gamebox.png",
+            "website": "https://github.com/lvuna/GameBox"
+        },
+        {
+            "title": "Algorithm",
+            "content": "The implementations of different algorithm",
+            "img_src": "pub/img/algorithm.jpg",
+            "website": "https://github.com/lvuna/Algorithm"
+        },
+        {
+            "title": "Coming Soon",
+            "img_src": "pub/img/comingsoon.jpg",
+            "content": "I will update my project progress regularly on this website, in the mean time checkout my GitHub Repository!",
+            "website": "https://github.com/lvuna"
+        }
+    ]
+}

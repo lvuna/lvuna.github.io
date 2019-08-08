@@ -6,6 +6,21 @@
     list-style-position: inside;
 }
 
+.fix_body {
+    height: 240px;
+    overflow: auto;
+}
+
+.smooth-card-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.smooth-card-bot {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
 /* Scrollbar styles */
 div ::-webkit-scrollbar {
 width: 12px;
@@ -13,15 +28,15 @@ height: 12px;
 }
 
 div ::-webkit-scrollbar-track {
-border: 1px solid #996633;
+border: none;
 border-radius: 10px;
 }
 
 div ::-webkit-scrollbar-thumb {
-background: #996633;
+background : none;
 border-radius: 10px;
 }
 
 div ::-webkit-scrollbar-thumb:hover {
-background: #d9b38c;
+background: none;
 }
