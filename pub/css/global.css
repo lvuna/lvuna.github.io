@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #double-column {
     list-style-type: disc;
     -webkit-columns: 2;

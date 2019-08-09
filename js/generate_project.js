@@ -1,4 +1,4 @@
-const generate_section = (js) => {
+const generate_project_section = (js) => {
     const data_arr = js["project_data"];
     const len = data_arr.length;
     const dom = $("#project_section");
@@ -52,4 +52,4 @@ const generate_section = (js) => {
     $(result).appendTo("#project_section");
 };
 
-const data = $.getJSON("./pub/project_data/project.json", generate_section);
+$.getJSON("./pub/project_data/project.json", generate_project_section);
