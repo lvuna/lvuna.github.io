@@ -54,4 +54,4 @@ const generate_slide_section = (js) => {
     generate_slide(js);
 }
 
-const data = $.getJSON("./pub/project_data/slide.json", generate_slide_section)
+$.getJSON("./pub/project_data/slide.json", generate_slide_section)
