@@ -6,6 +6,13 @@
             "content": "This is my first attempt to develop an android app as a team, applying design pattern and learn to develop frontend ui && backend logic.<br /> It's a precious experience for me to learn proper team workflow.",
             "website": "https://github.com/lvuna/GameBox",
             "background_image": "pub/img/gamebox.png"
+        },
+        {
+            "title": "Algorithm",
+            "subtitle": "",
+            "content": "Implemented and visualized different algorithms for study purpose.",
+            "website": "https://github.com/lvuna/Algorithm",
+            "background_image": "pub/img/algorithm.jpg"
         }
     ]
 }

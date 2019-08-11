@@ -47,11 +47,17 @@ const generate_slide = (js) => {
 }
 
 const generate_indicator = (js)=> {
-
+    const dom = $(".carousel-indicators");
+    const data_arr_length = js["slide_data"].length;
+    for (let i = 0; i < data_arr_length; i++){
+        let indicators = `<li data-target="#slide" data-slide-to="${i + 1}"></li>`;
+        $(indicators).appendTo(dom);
+    }
 }
 
 const generate_slide_section = (js) => {
     generate_slide(js);
+    generate_indicator(js);
 }
 
 $.getJSON("./pub/project_data/slide.json", generate_slide_section)
