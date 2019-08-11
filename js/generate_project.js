@@ -26,7 +26,7 @@ const generate_project_section = (js) => {
               <p class="card-text">${content}</p>
 
               <a href=${website} target="_blank"
-                class="btn btn-primary btn-md">Take me there!
+                class="btn btn-info btn-md">Details
               </a>
             </div>
 
