@@ -19,6 +19,10 @@ html {
     width: 90%;
 }
 
+.res-img {
+    transform: scale(0.9);
+}
+
 /* Scrollbar styles */
 div ::-webkit-scrollbar {
 width: 12px;
