@@ -23,6 +23,33 @@ html {
     transform: scale(0.9);
 }
 
+.light-grey {
+    background-color: #a4a4c1 !important;
+}
+
+.alert-message {
+    font-size: 1.5em;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: white;
+    background: #ffb84d;
+    animation-name: fade-in;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in{
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 /* Scrollbar styles */
 div ::-webkit-scrollbar {
 width: 12px;
