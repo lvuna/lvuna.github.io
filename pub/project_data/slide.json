@@ -3,7 +3,7 @@
         {
             "title": "Android Development - Game Box",
             "subtitle": "Featured project",
-            "content": "This is my first attempt to develop an android app as a team, applying design pattern and learn to develop frontend ui && backend logic.<br /> It's a precious experience for me to learn proper team workflow.",
+            "content": "This is my first attempt to develop an android app as a team, applying design pattern and learn to develop frontend ui && backend logic.",
             "website": "https://github.com/lvuna/GameBox",
             "background_image": "pub/img/gamebox.png"
         },
