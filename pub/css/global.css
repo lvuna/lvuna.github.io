@@ -50,6 +50,7 @@ html {
         opacity: 0;
     }
 }
+
 /* Scrollbar styles */
 div ::-webkit-scrollbar {
 width: 12px;
