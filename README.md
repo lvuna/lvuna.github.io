@@ -5,4 +5,4 @@ Static website deployed on github io. It's my personal webpage containing the ba
 \
 Built using primarily bootstrap for responive design, jquery and json to generate the project & slide section for easier maintanence.\
 \
-Uses some template designs from Material Design Bootstrap.
+Used some template designs from Material Design Bootstrap.
