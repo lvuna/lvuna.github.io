@@ -13,6 +13,12 @@
             "website": "https://github.com/lvuna/Algorithm"
         },
         {
+            "title": "Effect of Smoking on sleeping pattern",
+            "content": "A statistical analysis on effect of smoking on sleeping pattern given the sample of smokers & non smokers' sleeptime.",
+            "img_src": "pub/img/smoke.jpg",
+            "website": "pub/file/smoking-effect.pdf"
+        },
+        {
             "title": "Coming Soon",
             "img_src": "pub/img/comingsoon.jpg",
             "content": "I will update my project progress regularly on this website, in the mean time checkout my GitHub Repository!",
