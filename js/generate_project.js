@@ -2,14 +2,14 @@ const generate_project_section = (js) => {
     const data_arr = js["project_data"];
     const len = data_arr.length;
     const dom = $("#project_section");
-    let result = "";
+    let result = `<div class="row mb-4 wow fadeIn'">`;
     for (let i = 0; i < len; i++) {
         const title = data_arr[i]["title"];
         const content = data_arr[i]["content"];
         const img_src = data_arr[i]["img_src"];
         const website = data_arr[i]["website"];
         let msg = `
-        <div class="col-md-4 mb-4">
+        <div class="col-lg-4  col-md-6 mb-4">
 
           <div class="card">
 
@@ -34,20 +34,10 @@ const generate_project_section = (js) => {
 
         </div>
         `;
-
-        if (i % 3 == 0) {
-            result += `<div class="row mb-4 wow fadeIn'">`;
-            result += msg;
-        }else if (i % 3 == 2){
-            result += msg + `</div>`;
-        }else {
-            result += msg;
-        }
+        result += msg;
     }
 
-    if (len % 3 == 2){
-        result += `</div>`;
-    }
+    result += `</div>`;
     
     $(result).appendTo("#project_section");
 };
